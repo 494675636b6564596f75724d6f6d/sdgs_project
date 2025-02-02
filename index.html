@@ -1,11 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TEST</title>
-    </head>
-    <body>
-        IDI NAHUI
-    </body>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цель 11 - Устойчивые города в РБ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Цель 11: Устойчивые города и населенные пункты</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О цели</a></li>
+                <li><a href="#problems">Проблемы</a></li>
+                <li><a href="#solutions">Решения</a></li>
+                <li><a href="#contact">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>О цели</h2>
+            <p>Цель 11 направлена на обеспечение открытости, безопасности, жизнестойкости и экологической устойчивости городов и населенных пунктов.</p>
+            <img src="/assets/11.png" alt="Устойчивый город">
+        </section>
+        <section id="problems">
+            <h2>Проблемы</h2>
+            <p>Основные вызовы: нехватка доступного жилья, загрязнение окружающей среды, транспортные проблемы.</p>
+            <img src="/assets/pollution.jpg" alt="Загрязнение воздуха">
+        </section>
+        <section id="solutions">
+            <h2>Решения</h2>
+            <p>Примеры решений: развитие общественного транспорта, создание зеленых зон, использование возобновляемых источников энергии.</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/oKB66934iKI" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Обратная связь</h2>
+            <form action="https://formsubmit.co/r0xfor.root@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Новое сообщение с сайта!">
+                <input type="hidden" name="_next" value="thankyou.html"> <!-- Страница после отправки -->
+                
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+            
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Устойчивые города РБ</p>
+    </footer>
+</body>
 </html>
